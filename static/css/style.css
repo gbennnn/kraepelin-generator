@@ -1,0 +1,76 @@
+body {
+    background: #f5f7fa;
+}
+
+.card {
+    border-radius: 14px;
+}
+
+.preview-empty {
+    min-height: 520px;
+    border: 2px dashed #dee2e6;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.preview-wrapper {
+    background: white;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    padding: 24px 18px;
+    overflow: auto;
+    max-height: 700px;
+}
+
+.preview-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.15rem;
+}
+
+.preview-meta {
+    text-align: center;
+    color: #6c757d;
+    font-size: 0.75rem;
+    margin-bottom: 18px;
+}
+
+.number-grid {
+    display: grid;
+    gap: 0;
+    justify-content: center;
+    align-content: start;
+    font-family: "Courier New", monospace;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.number-cell {
+    text-align: center;
+    min-width: 25px;
+    padding: 5px 2px;
+}
+
+.stat-value {
+    font-size: 1.35rem;
+    font-weight: 700;
+}
+
+.form-label {
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+footer {
+    background: transparent;
+}
+
+@media (max-width: 991px) {
+    .preview-empty {
+        min-height: 350px;
+    }
+}
