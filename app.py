@@ -136,7 +136,7 @@ def make_pdf(settings, numbers):
 
     # Light footer
     c.setFont("Helvetica", 6.5)
-    c.drawCentredString(page_width / 2, 5 * mm, "Kraepelin Test Generator")
+    c.drawCentredString(page_width / 2, 5 * mm, "Kraepelin Test Generator (https://kraepelin-generator.vercel.app/)")
 
     c.showPage()
     c.save()
